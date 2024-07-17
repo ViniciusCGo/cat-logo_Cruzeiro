@@ -1,0 +1,106 @@
+/* Estilos básicos para o catálogo */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/mineirao.jpg); 
+    background-size: cover;   
+    background-attachment: fixed; 
+    background-position: bottom;
+    color:white;
+    overflow-x: hidden;
+}
+
+.page {
+    padding-top: 90px;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+h1 {
+    margin: 0;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+#titulos {
+
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(7, 10, 194);
+    margin: 0 auto;
+
+}
+
+#bandeira {
+    width: 15px;
+    height: 12px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 370px;
+    background-color:#0e5b9f;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 0px 30px;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 8px;
+}
+
+.card h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.card p {
+    text-align: center;
+    color: #666;
+}
+
+.tecnico {
+    margin-top: 15px;
+}
+
+#clicavel{
+    cursor: pointer;
+    }
+    
+    #clicavel:hover{
+    color: white;
+    }
+    
+/*   #clicavel:active{
+    color: blue;
+    }
+*/
